@@ -1,0 +1,184 @@
+{
+    "questions":[
+        {
+            "question": "Which of the following is responsible for sprint meeting?",
+            "answers":[
+                "Scrum team",
+                "Scrum master",
+                "Product Owner",
+                "None of the above"
+            ],
+            "correct_ans": "2",
+            "level": "1",
+            "team": "giraffe"
+        },
+        {
+            "question": "When acceptance testing is performed in Agile development?",
+            "answers":[
+                "On request of customer",
+                "After system is ready",
+                "At the end of each iteration",
+                "Daily"
+            ],
+            "correct_ans": "3",
+            "level": "2",
+            "team": "giraffe"
+        },
+        {
+            "question": "Select One Type of nonfunctional requirement?",
+            "answers":[
+                "user requirements",
+                "product requirements",
+                "Efficiency requirements",
+                "2+3 is the two Correct Answers"
+            ],
+            "correct_ans": "4",
+            "level": "2",
+            "team": "giraffe"
+        },
+	  {
+            "question": "Which one of the following is not a step of requirement engineering?",
+            "answers":[
+                "elicitation",
+                "design",
+                "analysis",
+                "documentation"
+            ],
+            "correct_ans": "2",
+            "level": "1",
+            "team": "giraffe"
+        },
+	  {
+            "question": "Types OF Reviews:",
+            "answers":[
+                "Formal Reviews",
+                "Peer Reviews",
+                "The answers 1 & 2 are correct",
+                "There are no correct answers"
+            ],
+            "correct_ans": "3",
+            "level": "3",
+            "team": "giraffe"
+		},
+		{
+            "question": "In Peer Review,the primary function is to use the skill of a group of people to",
+            "answers":[
+                "identify needed improvements",
+                "certify correctness",
+                "encourage uniformity & enforce subjective rules",
+                "all of the above"
+            ],
+            "correct_ans": "1",
+            "level": "3",
+            "team": "giraffe"
+		},
+        	{
+            "question": "The UML was designed for describing:",
+            "answers": [
+                "object-oriented systems",
+                "architectural design",
+                "SRS",
+                "Both object-oriented systems and Architectural design"
+            ],
+            "correct_ans": "4",
+            "level": "2",
+            "team": "giraffe"
+		},
+		{
+            "question": "What's true about MVC?",
+            "answers": [
+                "a Software Architecture’s Element",
+                "a software Application Architecture",
+                "a software Architecture patterns",
+                "There is no correct answer"
+            ],
+            "correct_ans": "3",
+            "level": "1",
+            "team": "giraffe"
+		},
+		{
+            "question": "Software Maintenance includes",
+            "answers": [
+                "Error corrections",
+                "Enhancements of capabilities",
+                "Deletion of obsolete capabilities",
+                "All of the mentioned"
+            ],
+            "correct_ans": "4",
+            "level": "3",
+            "team": "giraffe"
+		},
+		{
+            "question": "What type of software testing is generally used in Software Maintenance?",
+            "answers": [
+                "Regression Testing",
+                "System Testing",
+                "Black-box testing",
+                "White-box testing"
+            ],
+            "correct_ans": "1",
+            "level": "3",
+            "team": "giraffe"
+		},
+           {
+            "question": "what is unit testing?",
+            "answers": [
+                "is running the code",
+                "is testing a method by software developers",
+                "is to debuging all the code",
+                "is to testing all parts of a project"
+            ],
+            "correct_ans": "2",
+            "level": "2",
+            "team": "giraffe"
+        },
+        {
+            "question": "What is the advantages of writing unit tests?",
+            "answers": [
+                "Code maintainability as good unit tests enforces",
+                "Code testability",
+                "Design testability",
+                "all the above"
+            ],
+            "correct_ans": "4",
+            "level": "2",
+            "team": "giraffe"
+        },
+        {
+            "question": "Software can be tested as :",
+            "answers": [
+                "Black Box",
+                "White Box",
+                "answers one and two are correct",
+                "none of the mentioned"
+            ],
+            "correct_ans": "3",
+            "level": "1",
+            "team": "giraffe"
+        },
+	  {
+            "question": "Agile software engineering refers,",
+            "answers": [
+                "A philosophy and a set of development guidelines",
+                "An active and continuous communication between developers and customers",
+                "Encourages customer satisfaction",
+                "All of the mentioned above"
+            ],
+            "correct_ans": "4",
+            "level": "3",
+            "team": "giraffe"
+        },
+        {
+            "question": "________ specification is also known as SRS document",
+            "answers": [
+                "white-box",
+                "grey-box",
+                "black-box",
+                "none of the mentioned"
+            ],
+            "correct_ans": "3",
+            "level": "1",
+            "team": "giraffe"
+        }
+    ]
+}

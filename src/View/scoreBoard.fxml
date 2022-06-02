@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="636.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.HistoryPlayerControler">
+   <children>
+      <ImageView fitHeight="209.0" fitWidth="636.0" layoutY="-24.0">
+         <image>
+            <Image url="@../images/initial_gif.gif" />
+         </image>
+      </ImageView>
+      <Label layoutX="172.0" layoutY="107.0" prefHeight="47.0" prefWidth="321.0" text="THE 10 BEST PLAYERS" textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="130.0" layoutY="185.0" text="1st" textFill="RED">
+         <font>
+            <Font name="Book Antiqua Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="118.0" layoutY="145.0" prefHeight="32.0" prefWidth="78.0" text="RANK" textFill="#fff200">
+         <font>
+            <Font name="Book Antiqua Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="196.0" layoutY="148.0" prefHeight="25.0" prefWidth="118.0" text="NICKNAME" textFill="#fff200">
+         <font>
+            <Font name="Book Antiqua Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="123.0" layoutY="216.0" text="2nd" textFill="#eb52a8">
+         <font>
+            <Font name="Book Antiqua Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="128.0" layoutY="250.0" text="3rd" textFill="#14ccff">
+         <font>
+            <Font name="Book Antiqua Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="128.0" layoutY="287.0" text="4th" textFill="ORANGE">
+         <font>
+            <Font name="Book Antiqua Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="128.0" layoutY="318.0" text="5th" textFill="RED">
+         <font>
+            <Font name="Book Antiqua Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="128.0" layoutY="349.0" text="6th" textFill="#eb52a8">
+         <font>
+            <Font name="Book Antiqua Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="128.0" layoutY="382.0" text="7th" textFill="#14ccff">
+         <font>
+            <Font name="Book Antiqua Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="128.0" layoutY="413.0" text="8th" textFill="ORANGE">
+         <font>
+            <Font name="Book Antiqua Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="128.0" layoutY="444.0" text="9th" textFill="RED">
+         <font>
+            <Font name="Book Antiqua Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="475.0" text="10th" textFill="#eb52a8">
+         <font>
+            <Font name="Book Antiqua Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="name1" layoutX="201.0" layoutY="192.0" prefHeight="17.0" prefWidth="118.0" text="Label" textFill="WHITE" wrapText="true" />
+      <Label fx:id="name2" layoutX="201.0" layoutY="223.0" prefHeight="17.0" prefWidth="118.0" text="Label" textFill="WHITE" wrapText="true" />
+      <Label fx:id="name3" layoutX="201.0" layoutY="255.0" prefHeight="17.0" prefWidth="118.0" text="Label" textFill="WHITE" wrapText="true" />
+      <Label fx:id="name5" layoutX="201.0" layoutY="323.0" prefHeight="17.0" prefWidth="118.0" text="Label" textFill="WHITE" wrapText="true" />
+      <Label fx:id="name4" layoutX="201.0" layoutY="292.0" prefHeight="17.0" prefWidth="118.0" text="Label" textFill="WHITE" wrapText="true" />
+      <Label fx:id="name6" layoutX="201.0" layoutY="354.0" prefHeight="17.0" prefWidth="118.0" text="Label" textFill="WHITE" wrapText="true" />
+      <Label fx:id="name10" layoutX="201.0" layoutY="482.0" prefHeight="17.0" prefWidth="118.0" text="Label" textFill="WHITE" wrapText="true" />
+      <Label fx:id="name8" layoutX="201.0" layoutY="422.0" prefHeight="17.0" prefWidth="118.0" text="Label" textFill="WHITE" wrapText="true" />
+      <Label fx:id="name9" layoutX="201.0" layoutY="453.0" prefHeight="17.0" prefWidth="118.0" text="Label" textFill="WHITE" wrapText="true" />
+      <Label fx:id="name7" layoutX="201.0" layoutY="387.0" prefHeight="17.0" prefWidth="118.0" text="Label" textFill="WHITE" wrapText="true" />
+      <Button fx:id="Back" layoutX="13.0" layoutY="485.0" mnemonicParsing="false" onAction="#BackToMainMenu" prefHeight="28.0" prefWidth="70.0" style="-fx-background-color: #000000; -fx-border-color: #9c9a9a;" text="Back" textFill="#9c9a9a" />
+      <Label layoutX="333.0" layoutY="148.0" prefHeight="25.0" prefWidth="87.0" text="SCORE" textFill="#fff200">
+         <font>
+            <Font name="Book Antiqua Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="score1" layoutX="338.0" layoutY="192.0" prefHeight="17.0" prefWidth="66.0" text="Label" textFill="WHITE" />
+      <Label fx:id="score2" layoutX="338.0" layoutY="223.0" prefHeight="17.0" prefWidth="66.0" text="Label" textFill="WHITE" />
+      <Label fx:id="score3" layoutX="338.0" layoutY="255.0" prefHeight="17.0" prefWidth="66.0" text="Label" textFill="WHITE" />
+      <Label fx:id="score5" layoutX="338.0" layoutY="323.0" prefHeight="17.0" prefWidth="66.0" text="Label" textFill="WHITE" />
+      <Label fx:id="score4" layoutX="338.0" layoutY="292.0" prefHeight="17.0" prefWidth="66.0" text="Label" textFill="WHITE" />
+      <Label fx:id="score6" layoutX="338.0" layoutY="354.0" prefHeight="17.0" prefWidth="66.0" text="Label" textFill="WHITE" />
+      <Label fx:id="score10" layoutX="338.0" layoutY="482.0" prefHeight="17.0" prefWidth="66.0" text="Label" textFill="WHITE" />
+      <Label fx:id="score8" layoutX="338.0" layoutY="422.0" prefHeight="17.0" prefWidth="66.0" text="Label" textFill="WHITE" />
+      <Label fx:id="score9" layoutX="338.0" layoutY="453.0" prefHeight="17.0" prefWidth="66.0" text="Label" textFill="WHITE" />
+      <Label fx:id="score7" layoutX="338.0" layoutY="387.0" prefHeight="17.0" prefWidth="66.0" text="Label" textFill="WHITE" />
+      <Label layoutX="417.0" layoutY="148.0" prefHeight="25.0" prefWidth="87.0" text="DATE" textFill="#fff200">
+         <font>
+            <Font name="Book Antiqua Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="date1" layoutX="422.0" layoutY="192.0" prefHeight="17.0" prefWidth="150.0" text="Label" textFill="WHITE" />
+      <Label fx:id="date2" layoutX="422.0" layoutY="223.0" prefHeight="17.0" prefWidth="150.0" text="Label" textFill="WHITE" />
+      <Label fx:id="date3" layoutX="422.0" layoutY="255.0" prefHeight="17.0" prefWidth="150.0" text="Label" textFill="WHITE" />
+      <Label fx:id="date5" layoutX="422.0" layoutY="323.0" prefHeight="17.0" prefWidth="150.0" text="Label" textFill="WHITE" />
+      <Label fx:id="date4" layoutX="422.0" layoutY="292.0" prefHeight="17.0" prefWidth="150.0" text="Label" textFill="WHITE" />
+      <Label fx:id="date6" layoutX="422.0" layoutY="354.0" prefHeight="17.0" prefWidth="150.0" text="Label" textFill="WHITE" />
+      <Label fx:id="date10" layoutX="422.0" layoutY="482.0" prefHeight="17.0" prefWidth="150.0" text="Label" textFill="WHITE" />
+      <Label fx:id="date8" layoutX="422.0" layoutY="422.0" prefHeight="17.0" prefWidth="150.0" text="Label" textFill="WHITE" />
+      <Label fx:id="date9" layoutX="422.0" layoutY="453.0" prefHeight="17.0" prefWidth="150.0" text="Label" textFill="WHITE" />
+      <Label fx:id="date7" layoutX="422.0" layoutY="387.0" prefHeight="17.0" prefWidth="150.0" text="Label" textFill="WHITE" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="326.0" prefWidth="412.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.QuestionController">
+   <children>
+      <Button layoutX="59.0" layoutY="93.0" mnemonicParsing="false" onAction="#updateEasyQuestion" prefHeight="42.0" prefWidth="146.0" style="-fx-border-color: #3ad11b; -fx-background-color: #000000;" text="Easy Questions" textFill="#3ad11b">
+         <font>
+            <Font name="Book Antiqua" size="14.0" />
+         </font></Button>
+      <Button layoutX="59.0" layoutY="151.0" mnemonicParsing="false" onAction="#updateMediumQuestion" prefHeight="42.0" prefWidth="146.0" style="-fx-background-color: #0000; -fx-border-color: cbd720;" text="Medium Questions" textFill="#cbd720">
+         <font>
+            <Font name="Book Antiqua" size="14.0" />
+         </font></Button>
+      <Button layoutX="59.0" layoutY="209.0" mnemonicParsing="false" onAction="#updateHardQuestion" prefHeight="42.0" prefWidth="146.0" style="-fx-background-color: #0000; -fx-border-color: #e80909;" text="Hard Questions" textFill="#e80909">
+         <font>
+            <Font name="Book Antiqua" size="14.0" />
+         </font></Button>
+      <Label layoutX="106.0" layoutY="34.0" prefHeight="34.0" prefWidth="199.0" text="Question Management" textFill="#f5f0f0">
+         <font>
+            <Font name="Book Antiqua Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="252.0" layoutY="100.0" mnemonicParsing="false" onAction="#addEasyQuestion" prefHeight="27.0" prefWidth="83.0" style="-fx-background-color: black; -fx-border-color: #3ad11b;" text="ADD" textFill="#3ad11b" />
+      <Button layoutX="252.0" layoutY="158.0" mnemonicParsing="false" onAction="#addMediumQuestion" prefHeight="26.0" prefWidth="83.0" style="-fx-background-color: black; -fx-border-color: #cbd720;" text="ADD" textFill="#cbd720" />
+      <Button layoutX="252.0" layoutY="216.0" mnemonicParsing="false" onAction="#addHardQuestion" prefHeight="27.0" prefWidth="83.0" style="-fx-background-color: black; -fx-border-color: #e80909;" text="ADD" textFill="#e80909" />
+      <Button fx:id="BackButton" layoutX="14.0" layoutY="274.0" mnemonicParsing="false" onAction="#BackButton" prefHeight="25.0" prefWidth="68.0" style="-fx-background-color: #000000; -fx-border-color: #9c9a9a;" text="BACK" textFill="#9c9a9a" />
+   </children>
+</AnchorPane>
